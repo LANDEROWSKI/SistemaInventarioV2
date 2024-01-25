@@ -2,8 +2,9 @@
 using SistemaInventario.Modelos.ViewModels;
 using System.Diagnostics;
 
-namespace SistemaInventario2.Controllers
+namespace SistemaInventario2.Areas.Inventario2.Controllers
 {
+    [Area("Inventario2")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
