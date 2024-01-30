@@ -13,3 +13,4 @@ C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario.Modelos\obj\D
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario.Modelos\obj\Debug\net7.0\refint\SistemaInventario.Modelos.dll
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.pdb
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario.Modelos\obj\Debug\net7.0\ref\SistemaInventario.Modelos.dll
+C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario.Modelos\obj\Debug\net7.0\SistemaInventario.Modelos.sourcelink.json
