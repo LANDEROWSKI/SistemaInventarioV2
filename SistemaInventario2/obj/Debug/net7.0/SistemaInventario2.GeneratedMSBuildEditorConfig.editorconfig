@@ -18,12 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/LANDERO/source/repos/SistemaInventario2/SistemaInventario2/Areas/Admin/Views - Copia/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3MgLSBDb3BpYVxfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/LANDERO/source/repos/SistemaInventario2/SistemaInventario2/Areas/Admin/Views - Copia/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3MgLSBDb3BpYVxfVmlld1N0YXJ0LmNzaHRtbA==
+[C:/Users/LANDERO/source/repos/SistemaInventario2/SistemaInventario2/Areas/Admin/Views/Bodega/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LANDERO/source/repos/SistemaInventario2/SistemaInventario2/Areas/Admin/Views/_ViewImports.cshtml]
