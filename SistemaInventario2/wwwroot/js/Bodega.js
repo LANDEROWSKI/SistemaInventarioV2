@@ -4,7 +4,7 @@ $(document).ready(function () {
     loadDataTable();
 });
 
-console.log("Hola");
+/*console.log("Hola");*/
 
 function loadDataTable() {
     datatable = $('#tblDatos').DataTable({
@@ -23,19 +23,11 @@ function loadDataTable() {
             }
         },
         "ajax": {
-            "url": "/Admin/Bodega/ObtenerTodos",
-            "error": function (xhr, error, thrown) {
-                console.log("Error en la llamada AJAX:", error, thrown);
-            },
-            dataSrc:"data.result"
+            "url": "/Admin/Bodega/ObtenerTodos"
         },
         "columns": [
-            {
-                "data": "nombre", "width": "20%"
-            },
-            {
-                "data": "descripcion", "width": "40%"
-            },
+            { "data": "nombre", "width": "20%" },
+            { "data": "descripcion", "width": "40%" },
             {
                 "data": "estado",
                 "render": function (data) {
@@ -51,12 +43,12 @@ function loadDataTable() {
                 "data": "id",
                 "render": function (data) {
                     return `
-                        <div class="text-center">
+                        <div>
                             <a href="/Admin/Bodega/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
-                                <i class="bi bi-pencil-square"></i>
+                            <i class="bi bi-pencil-square"></i>
                             </a>
                             <a onclick=Delete("/Admin/Bodega/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
-                                <i class="bi bi-trash3"></i>
+                            <i class="bi bi-trash3-fill"></i>
                             </a>
                         </div>
                     `;
@@ -65,3 +57,31 @@ function loadDataTable() {
         ]
     });
 }
+
+
+function Delete(url) {
+
+    swal({
+        title: "Esta seguro de Eliminar la Bodega?",
+        text: "Este registro no se podra recuperar",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true
+    }).then((borrar) => {
+        if (borrar) {
+            $.ajax({
+                type: "POST",
+                url: url,
+                success: function (data) {
+                    if (data.success) {
+                        toastr.success(data.message);
+                        datatable.ajax.reload();
+                    }
+                    else {
+                        toastr.error(data.message);
+                    }
+                }
+            });
+        }
+    });
+}            
