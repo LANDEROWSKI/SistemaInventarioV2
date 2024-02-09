@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ahh34stu15ftCU9QucNY4GhL01EeNmvRDKLN+y3i19g=",
+  "Hash": "8djlNW3wZrSlMgqBl+sGiugY6+z0OUt1JHDgKJMSKog=",
   "Source": "SistemaInventario2",
   "BasePath": "_content/SistemaInventario2",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Bodega.js"
+    },
+    {
+      "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\Categoria.js",
+      "SourceId": "SistemaInventario2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario2",
+      "RelativePath": "js/Categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Categoria.js"
     },
     {
       "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\site.js",
