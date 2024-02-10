@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8djlNW3wZrSlMgqBl+sGiugY6+z0OUt1JHDgKJMSKog=",
+  "Hash": "a+L0nhpzfMQ01Uy8bGBDOUVPB7leSV3hMHHkkKZS1J4=",
   "Source": "SistemaInventario2",
   "BasePath": "_content/SistemaInventario2",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Categoria.js"
+    },
+    {
+      "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\Marca.js",
+      "SourceId": "SistemaInventario2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario2",
+      "RelativePath": "js/Marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Marca.js"
     },
     {
       "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\site.js",

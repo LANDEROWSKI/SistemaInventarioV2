@@ -13,6 +13,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         private readonly ApplicationDbContext _db;
         public IBodegaRepositorio Bodega { get; private set; }
         public ICategoriaRepositorio Categoria { get; private set; }
+        public IMarcaRepositorio Marca { get; private set; }
+
 
         public IBodegaRepositorio BodegaRepositorio => throw new NotImplementedException();
 
@@ -21,6 +23,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             _db = db;
             Bodega = new BodegaRepositorio(_db);
             Categoria = new CategoriaRepositorio(_db);
+            Marca = new MarcaRepositorio(_db);
         }
 
 
