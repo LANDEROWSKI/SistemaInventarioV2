@@ -1,4 +1,5 @@
 ﻿using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
+namespace SistemaInventario.AccesoDatos.Repositorio
 {
     public class MarcaRepositorio : Repositorio<Marca>, IMarcaRepositorio
     {
@@ -19,7 +20,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         public void Actualizar(Marca marca)
         {
             var marcaBD = _db.Marcas.FirstOrDefault(b => b.Id == marca.Id);
-            if(marcaBD != null)
+            if (marcaBD != null)
             {
                 marcaBD.Nombre = marca.Nombre;
                 marcaBD.Descripcion = marca.Descripcion;

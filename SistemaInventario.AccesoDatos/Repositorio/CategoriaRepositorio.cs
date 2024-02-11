@@ -1,4 +1,5 @@
 ﻿using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Modelos;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
+namespace SistemaInventario.AccesoDatos.Repositorio
 {
     public class CategoriaRepositorio : Repositorio<Categoria>, ICategoriaRepositorio
     {
@@ -19,7 +20,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         public void Actualizar(Categoria categoria)
         {
             var categoriaBD = _db.Categorias.FirstOrDefault(b => b.Id == categoria.Id);
-            if(categoriaBD != null)
+            if (categoriaBD != null)
             {
                 categoriaBD.Nombre = categoria.Nombre;
                 categoriaBD.Descripcion = categoria.Descripcion;

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\Marca.js"
     },
     {
+      "Id": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\Producto.js",
+      "PackagePath": "staticwebassets\\js\\Producto.js"
+    },
+    {
       "Id": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

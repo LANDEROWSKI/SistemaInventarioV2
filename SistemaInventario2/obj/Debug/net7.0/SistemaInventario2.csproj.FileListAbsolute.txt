@@ -566,3 +566,5 @@ C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\ne
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\net7.0\refs\WindowsBase.dll
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\LANDERO\source\repos\SistemaInventario2\SistemaInventario2\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
