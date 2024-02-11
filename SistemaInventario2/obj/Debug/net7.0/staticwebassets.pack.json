@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\imagenes\\producto\\dd023607-5b57-4d88-8714-a3c8d73d09df.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\producto\\dd023607-5b57-4d88-8714-a3c8d73d09df.jpg"
-    },
-    {
       "Id": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\Bodega.js",
       "PackagePath": "staticwebassets\\js\\Bodega.js"
     },

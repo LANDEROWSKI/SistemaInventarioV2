@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f6bdgBIRzEX9q0srXTbndIjJ5pe4eV/Ac2Ykk53FOkU=",
+  "Hash": "afXUuAz1inAGGudhGCkpLjTpNomg9kx1CYOC2P1+Jwo=",
   "Source": "SistemaInventario2",
   "BasePath": "_content/SistemaInventario2",
   "Mode": "Default",
@@ -1231,25 +1231,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\imagenes\\producto\\dd023607-5b57-4d88-8714-a3c8d73d09df.jpg",
-      "SourceId": "SistemaInventario2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\",
-      "BasePath": "_content/SistemaInventario2",
-      "RelativePath": "imagenes/producto/dd023607-5b57-4d88-8714-a3c8d73d09df.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\dd023607-5b57-4d88-8714-a3c8d73d09df.jpg"
     },
     {
       "Identity": "C:\\Users\\LANDERO\\source\\repos\\SistemaInventario2\\SistemaInventario2\\wwwroot\\js\\Bodega.js",
